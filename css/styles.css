@@ -1,0 +1,82 @@
+/***** general *****/
+h2 {
+	padding-bottom: .5em;
+	border-bottom: 1px solid #ccc;
+}
+h2:first-letter {
+	margin-right: .1em;
+	font-size: 1.5em;
+}
+
+
+.small80{
+  margin: auto 10%;
+}
+
+
+/****** ヘッダーについて ******/
+header.jumbotron {
+      background: url("../img/jumbotron.jpg");
+      background-position: center center;
+      background-size: cover;
+      color: #fff;
+    }
+
+    header .container {
+      margin-top: 13%;
+    }
+
+    header .midashi-btn {
+      border: 1px solid #fff;
+      color: #fff;
+      border-radius: 0;
+    }
+
+    header .midashi-btn:hover {
+      color: #0089ff;
+      border-color: #0089ff;
+    }
+
+    .navbar-form {
+      padding-right: 30px;
+    }
+
+/***** cardについて *****/
+.card {
+//width: 350px;
+background: #fff;
+border-radius: 5px;
+box-shadow: 0 2px 5px #ccc;
+}
+  .card-img {
+  border-radius: 5px 5px 0 0;
+  max-width: 100%;
+  height: auto;
+  }
+  .card-content {
+  padding: 10px;
+  }
+  .card-title {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+  }
+  .card-text {
+  color: #777;
+  font-size: 14px;
+  line-height: 1.5;
+  }
+  .card-link {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding: 15px;
+  }
+  .card-link a {
+  text-decoration: none;
+  color: #0bd;
+  margin: 0 10px;
+  }
+  .card-link a:hover {
+  color: #0090aa;
+  }
