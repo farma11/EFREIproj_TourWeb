@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Home | Travel</title>
-  <link rel="stylesheet" href="css/bootstrap.min.css" />
-  <link rel="stylesheet" href="css/styles.css" />
+  <link rel="stylesheet" href="../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../css/styles.css" />
 
 </head>
 <body>
@@ -26,71 +26,21 @@
     <div id="nav-content" class="collapse navbar-collapse">
       <!--リンクのリスト メニューリスト-->
       <ul class="nav navbar-nav">
-        <li class="active"><a href="./index.html">Home</a></li>
-        <li><a href="./jp/tours.html">Japan</a></li>
-        <li><a href="./fr/tours.html">France</a></li>
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../jp/tours.html">Japan</a></li>
+        <li class="active"><a href="../fr/tours.html">France</a></li>
       </ul>
     </div>
   </nav>
 
   <!-- ヘッダー -->
-  <!--header class="jumbotron">
+  <header class="jumbotron">
     <div class="container">
-      <h1 class="text-muted">Travel to Japan</h1>
+      <h1 class="text-muted">Travel to France</h1>
       <p class="text-muted">Let's go Japan!!</p>
     </div>
-  </header-->
-
-
-  <!-- カルーセル img: 1920x1080-->
-  <!-- 任意のID指定。クラスとデータ属性の指定。 -->
-  <header id="top">
-    <div id="carousel-home" class="carousel slide" data-ride="carousel" data-interval="3000">
-      <!-- インジケーターの設置。下部の○●ボタン。 -->
-      <ol class="carousel-indicators">
-        <li data-target="#carousel-home" data-slide-to="0" class="active"></li>
-        <li data-target="#carousel-home" data-slide-to="1"></li>
-        <li data-target="#carousel-home" data-slide-to="2"></li>
-      </ol>
-
-      <!-- スライドの内容 -->
-      <div class="carousel-inner">
-        <!-- item = １スライド、activeを入れたところが最初に表示される -->
-        <div class="item active">
-          <img src="img/carousel1920x1040/tokyo.jpg" alt="First slide">
-          <div class="carousel-caption">
-            <h3>Tour in Tokyo, Japan</h3>
-            Tokyo is the capital city of Japan!
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="img/carousel1920x1040/paris.jpg" alt="First slide">
-          <div class="carousel-caption">
-            <h3>Tour in Paris, France</h3>
-            Paris is the most popular city for the sightseeing!
-          </div>
-        </div>
-
-        <div class="item">
-          <img src="img/carousel1920x1040/kyoto.jpg" alt="First slide">
-          <div class="carousel-caption">
-            <h3>Tour in Kyoto, Japan</h3>
-            In Kyoto, we can feel Japanese culture!
-          </div>
-        </div>
-      </div>
-
-      <!-- 左右の移動ボタン -->
-      <a class="left carousel-control" href="#carousel-example" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-      </a>
-      <a class="right carousel-control" href="#carousel-example" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-      </a>
-
-    </div>
   </header>
+
 
   <!-- Which countris -->
   <div class="container">
@@ -181,6 +131,6 @@
 
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="../js/bootstrap.min.js"></script>
 </body>
 </html>
