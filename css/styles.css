@@ -36,6 +36,12 @@ header.jumbotron {
       background-size: cover;
       color: #fff;
 		}
+		header.jp_tokyo {
+			background: url("../img/carousel1920x1040/tokyo.jpg");
+			background-position: center center;
+      background-size: cover;
+      color: #fff;
+		}
 		header.fr {
 			background: url("../img/jumbotron/fr.jpg");
 			background-position: center center;
@@ -62,6 +68,19 @@ header.jumbotron {
     .navbar-form {
       padding-right: 30px;
     }
+
+/***** Ghost Button *****/
+.btn-ghost {
+  background: transparent;
+}
+.btn-ghost.btn-white {
+  color: #fff;
+  border: 1px solid #fff;
+}
+.btn-ghost.btn-white:hover {
+  color: #333;
+  background: #fff;
+}
 
 /***** cardについて *****/
 .card {
