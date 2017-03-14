@@ -28,11 +28,21 @@ h2:first-letter {
 
 /****** ヘッダーについて ******/
 header.jumbotron {
-      background: url("../img/jumbotron.jpg");
-      background-position: center center;
+
+    }
+		header.jp {
+			background: url("../img/jumbotron/jp.jpg");
+			background-position: center center;
       background-size: cover;
       color: #fff;
-    }
+		}
+		header.fr {
+			background: url("../img/jumbotron/fr.jpg");
+			background-position: center center;
+      background-size: cover;
+      color: #fff;
+		}
+
 
     header .container {
       margin-top: 13%;
