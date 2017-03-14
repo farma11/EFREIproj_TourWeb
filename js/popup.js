@@ -82,7 +82,7 @@ var mouseMove = function( e ) {
 
     elm.style.left = mouseX;
 
-    elm.style.top = mouseY;
+    elm.style.top = mouseY + 20;
 
     console.log("mouseX = "+mouseX+", mouseY = "+mouseY+id)
     console.log(elm);
