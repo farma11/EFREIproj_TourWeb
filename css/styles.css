@@ -8,6 +8,15 @@ h2:first-letter {
 	font-size: 1.5em;
 }
 
+p.guide {
+	font-size: 20px;
+
+}
+img {
+	width: 100%;
+
+}
+
 
 .small80{
   margin: auto 10%;
