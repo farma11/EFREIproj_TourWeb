@@ -6,6 +6,7 @@
 
   <title>Tokyo</title>
   <link rel="stylesheet" href="../../css/bootstrap.min.css" />
+  <link rel="stylesheet" href="../../css/star-rating.min.css" media="all" type="text/css" />
   <link rel="stylesheet" href="../../css/styles.css" />
 
 </head>
@@ -127,23 +128,72 @@
         <p class="text-center">Maid</p>
       </div>
 
-      <!--div class="col-xs-12 col-md-4 col-md-offset-1 thumbnail">
-        <img src="../../img/card800x600/akihabara.jpg" class="img-responsive">
-        <p class="text-center">Akihabara</p>
+    </div>
+
+    <!-- ランキングスコア -->
+    <div class="col-xs-12 text-center">
+      <h2>Ranking Score</h2>
+      <input id="input-1" name="input-1" class="rating rating-loading"  data-readonly="true"
+        data-show-clear="false"
+        data-min="0" data-max="5" data-step="0.1" value="4.4" data-size="lg">
+
+        <div class="panel-group">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a data-toggle="collapse" href="#comments">
+                  There are many comments !
+                </a>
+              </h4>
+            </div>
+
+            <div id="comments" class="panel-collapse collapse">
+              <div class="panel-body">
+                <div class="panel panel-default text-left">
+                  <div class="panel-heading">
+                    <input class="rating rating-loading"  data-readonly="true" data-show-clear="false"
+                      data-min="0" data-max="5" data-step="0.1" value="4.0" data-size="xs">
+                  </div>
+                  <div class="panel-body">
+                    <span>@example1:</span>
+                    I had a good time in Tokyo. You should join the tour!
+                  </div>
+                </div>
+
+                <div class="panel panel-default text-left">
+                  <div class="panel-heading">
+                    <input class="rating rating-loading"  data-readonly="true" data-show-clear="false"
+                      data-min="0" data-max="5" data-step="0.1" value="4.0" data-size="xs">
+                  </div>
+                  <div class="panel-body">
+                    <span>@example1:</span>
+                    I had a good time in Tokyo. You should join the tour!
+                  </div>
+                </div>
+
+                <div class="panel panel-default text-left">
+                  <div class="panel-heading">
+                    <input class="rating rating-loading"  data-readonly="true" data-show-clear="false"
+                      data-min="0" data-max="5" data-step="0.1" value="4.0" data-size="xs">
+                  </div>
+                  <div class="panel-body">
+                    <span>@example1:</span>
+                    I had a good time in Tokyo. You should join the tour!
+                  </div>
+                </div>
+
+              </div>
+          </div>
+        </div>
       </div>
-      <div class="col-xs-12 col-md-4 col-md-offset-2 thumbnail">
-        <img src="../../img/card800x600/maid.jpg" class="img-responsive">
-        <p class="text-center">Maid</p>
-      </div-->
     </div>
 
 
+
     </div>
 
 
-    <!--div class="col-xs-12">
-      <h1>Ranking</h1>
-    </div-->
+
 
     <div class="col-xs-12">
       <a href="../tours/tokyo.html" class="btn btn-primary btn-lg btn-block">
@@ -181,6 +231,6 @@ Hokkaido~Tokyo~Okinawa(10days, £1000 – £1200)
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="../../js/bootstrap.min.js"></script>
-  <script src="../../js/mymove.js"></script>
+  <script src="../../js/star-rating.min.js" type="text/javascript"></script>
 </body>
 </html>

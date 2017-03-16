@@ -6,6 +6,7 @@
 
   <title>Home | Travel</title>
   <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/star-rating.min.css" media="all" type="text/css" />
   <link rel="stylesheet" href="css/styles.css" />
 
 </head>
@@ -133,39 +134,51 @@
         </h2>
       </div>
 
-      <section class="card col-xs-4">
-        <img class="card-img" src="img/Tokyo.jpg" alt="">
-        <div class="card-content">
-          <h1 class="card-title">Tour in Tokyo</h1>
-          <p class="card-text">Tokyo is the capital city of Japan!</p>
-        </div>
-        <div class="card-link">
-          <a href="./jp/cities/tokyo.html">About</a>
-        </div>
-      </section>
 
-      <section class="card col-xs-4">
-        <img class="card-img" src="img/Kyoto.jpg" alt="">
-        <div class="card-content">
-          <h1 class="card-title">Tour in Kyoto</h1>
-          <p class="card-text">In Kyoto, we can feel Japanese culture!</p>
-        </div>
-        <div class="card-link">
-          <a href="http://webcreatorbox.com/about">About</a>
-        </div>
-      </section>
+      <a href="./jp/cities/tokyo.html">
+        <section class="card col-xs-4">
+          <img class="card-img" src="img/Tokyo.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">Tour in Tokyo</h1>
+            <p class="card-text text-center">Tokyo is the capital city of Japan!</p>
+          </div>
+          <div class="card-link">
+            <input id="input-1" name="input-1" class="rating rating-loading"  data-readonly="true"
+              data-show-clear="false"
+              data-min="0" data-max="5" data-step="0.1" value="4.4" data-size="sm">
+          </div>
+        </section>
+      </a>
 
-      <section class="card col-xs-4">
-        <img class="card-img" src="img/Okinawa.jpg" alt="">
-        <div class="card-content">
-          <h1 class="card-title">Okinawa in Tour</h1>
-          <p class="card-text">The view of sea is very beautiful!</p>
-        </div>
-        <div class="card-link">
-          <a href="http://webcreatorbox.com/about">About</a>
-        </div>
-      </section>
-    </div>
+      <a href="#">
+        <section class="card col-xs-4">
+          <img class="card-img" src="img/Kyoto.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">Tour in Kyoto</h1>
+            <p class="card-text text-center">In Kyoto, we can feel Japanese culture!</p>
+          </div>
+          <div class="card-link">
+            <input id="input-2" name="input-2" class="rating rating-loading"  data-readonly="true"
+              data-show-clear="false"
+              data-min="0" data-max="5" data-step="0.1" value="3.9" data-size="sm">
+          </div>
+        </section>
+      </a>
+
+      <a href="#">
+        <section class="card col-xs-4">
+          <img class="card-img" src="img/Okinawa.jpg" alt="">
+          <div class="card-content">
+            <h1 class="card-title">Okinawa in Tour</h1>
+            <p class="card-text text-center">The view of sea is very beautiful!</p>
+          </div>
+          <div class="card-link">
+            <input id="input-3" name="input-3" class="rating rating-loading"  data-readonly="true"
+              data-show-clear="false"
+              data-min="0" data-max="5" data-step="0.1" value="3.6" data-size="sm">
+          </div>
+        </section>
+      </a>
 
   </div>
 
@@ -182,5 +195,6 @@
   <!-- JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
+  <script src="js/star-rating.min.js" type="text/javascript"></script>
 </body>
 </html>
