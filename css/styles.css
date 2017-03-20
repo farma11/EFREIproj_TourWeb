@@ -108,7 +108,7 @@ header.jumbotron {
       padding-right: 30px;
     }
 
-/***** Ghost Button *****/
+/***** Buttons *****/
 .btn-ghost {
   background: transparent;
 }
@@ -119,6 +119,24 @@ header.jumbotron {
 .btn-ghost.btn-white:hover {
   color: #333;
   background: #fff;
+}
+
+.btn-light_blue {
+	color: #000;
+	background: #c1e0ff;
+}
+.btn-light_blue:hover {
+	color: #7fbfff;
+	background: #eff7ff;
+}
+
+.btn-light_red {
+	color: #000;
+	background: #ffc1c1;
+}
+.btn-light_red:hover {
+	color: #ff7f7f;
+	background: #ffefef;
 }
 
 /***** cardについて *****/
