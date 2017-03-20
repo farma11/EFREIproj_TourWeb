@@ -51,6 +51,12 @@ header.jumbotron {
       background-size: cover;
       color: #fff;
 		}
+		header.jp_kyoto {
+			background: url("../img/carousel1920x1040/kyoto.jpg");
+			background-position: center center;
+      background-size: cover;
+      color: #fff;
+		}
 		header.fr {
 			background: url("../img/jumbotron/fr.jpg");
 			background-position: center center;
