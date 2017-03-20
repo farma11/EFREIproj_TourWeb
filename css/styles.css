@@ -57,8 +57,20 @@ header.jumbotron {
       background-size: cover;
       color: #fff;
 		}
+		header.jp_hiroshima {
+			background: url("../img/carousel1920x1040/hiroshima.jpg");
+			background-position: center center;
+      background-size: cover;
+      color: #fff;
+		}
 		header.fr {
 			background: url("../img/jumbotron/fr.jpg");
+			background-position: center center;
+      background-size: cover;
+      color: #fff;
+		}
+		header.fr_paris {
+			background: url("../img/carousel1920x1040/paris.jpg");
 			background-position: center center;
       background-size: cover;
       color: #fff;
