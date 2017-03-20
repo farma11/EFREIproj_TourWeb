@@ -75,6 +75,12 @@ header.jumbotron {
       background-size: cover;
       color: #fff;
 		}
+		header.fr_paris {
+			background: url("../img/carousel1920x1040/strasbourg.jpg");
+			background-position: center center;
+      background-size: cover;
+      color: #fff;
+		}
 
 
     header .container {
