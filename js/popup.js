@@ -143,11 +143,3 @@ if(window.addEventListener){
     window.attachEvent('onload', init);
 
 }
-
-/*
-jQuery(
-$(document).ready(function(e) {
-	$('img[usemap]').rwdImageMaps();
-});
-);
-*/

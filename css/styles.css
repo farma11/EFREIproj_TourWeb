@@ -28,6 +28,15 @@ img.maxsize {
   margin: auto 10%;
 }
 
+footer {
+  display: block;
+	padding: 10px 0;
+    color: #999;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-top: 1px solid #e5e5e5;
+}
+
 /****** Home カルーセルについて *****/
 .item img {
 	height: 100px;
@@ -47,7 +56,7 @@ header.jumbotron {
 		header.jumbotron h1,
 		header.jumbotron p
 		{
-		  text-shadow: 4px 4px 1px #000;
+		  text-shadow: 2.5px 2.5px 1px #000;
 		}
 		header.jp {
 			background: url("../img/jumbotron/jp.jpg");
@@ -120,14 +129,18 @@ header.jumbotron {
 
 /***** Buttons *****/
 .btn-ghost {
-  background: transparent;
+  //background: transparent;
+	background: rgba(255,255,255,0.5);
 }
 .btn-ghost.btn-white {
   color: #fff;
+	text-shadow: 2px 2px 0.5px #000;
+	font-weight: bold;
   border: 1px solid #fff;
 }
 .btn-ghost.btn-white:hover {
   color: #333;
+	text-shadow: none;
   background: #fff;
 }
 
