@@ -17,6 +17,7 @@ img.maxsize {
 
 }
 
+
 .navbar-brand {
 	font-size: 25px;
 	font-family: 'Impact';
@@ -156,6 +157,13 @@ header.jumbotron {
 	padding-bottom: 10px;
 	margin: 5px auto;
 }
+	.card.jp {
+		background: #ffefef;
+	}
+	.card.fr {
+		background: #eff7ff;
+	}
+
 .card:hover {
 	box-shadow: 0px 5px 15px -5px rgba(0, 0, 0, 0.8);
 	opacity: 0.9;
@@ -164,6 +172,7 @@ header.jumbotron {
 	  border-radius: 5px 5px 0 0;
 	  max-width: 100%;
 	  height: auto;
+		padding-top: 10px;
   }
   .card-content {
   	padding: 10px;

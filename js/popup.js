@@ -89,11 +89,11 @@ var mouseMove = function( e ) {
 
 };
 
- 
+
 
 
 function popUp() {
- 
+
     // popid 属性の値を取得
 
     var id = this.getAttribute('popid');
@@ -101,7 +101,7 @@ function popUp() {
 
     id = id.replace('#', '');
 
- 
+
     var elm = document.getElementById(id);
 
     if (elm.style.display == '' || elm.style.display == 'none') {
@@ -124,11 +124,11 @@ function popUp() {
 
     }
 
-    
+
 }
 
 
- 
+
 // HTML ロード時に init 関数を実行させる
 
 if(window.addEventListener){
@@ -143,3 +143,11 @@ if(window.addEventListener){
     window.attachEvent('onload', init);
 
 }
+
+/*
+jQuery(
+$(document).ready(function(e) {
+	$('img[usemap]').rwdImageMaps();
+});
+);
+*/
