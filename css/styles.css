@@ -148,19 +148,22 @@ header.jumbotron {
 	color: #000;
 	background: #c1e0ff;
 }
+/*
 .btn-light_blue:hover {
 	color: #7fbfff;
 	background: #eff7ff;
 }
-
+*/
 .btn-light_red {
 	color: #000;
 	background: #ffc1c1;
 }
+/*
 .btn-light_red:hover {
 	color: #ff7f7f;
 	background: #ffefef;
 }
+*/
 
 /***** cardについて *****/
 .card {
