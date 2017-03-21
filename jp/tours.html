@@ -5,7 +5,7 @@
 
   <script type="text/javascript" src="../js/popup.js"></script>
 
-  <title>Home | Travel</title>
+  <title>Japan Tours | Travel</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css" />
   <link rel="stylesheet" href="../css/styles.css" />
 
@@ -55,11 +55,44 @@
         </h2>
       </div>
 
-      <div class="col-xs-3">
-        <a href="./cities/about.html" target="_blank" class="btn btn-default btn-lg btn-block">
-          About Japan
-        </a>
+        <div class="col-xs-6">
+          <a href="./cities/about.html" target="_blank" class="btn btn-light_red btn_rounded btn-block">
+            About Japan
+          </a>
+        </div>
+
+        <div class="col-xs-6">
+          <button type="button" class="btn btn-light_red btn_rounded btn-block" data-toggle="modal" data-target="#sampleModal">
+  	         How to use
+          </button>
+        </div>
+
+        <!-- モーダル・ダイアログ -->
+        <div class="modal fade" id="sampleModal" tabindex="-1">
+        	<div class="modal-dialog">
+        		<div class="modal-content">
+        			<div class="modal-header">
+        				<button type="button" class="close" data-dismiss="modal"><span>×</span></button>
+        				<h3 class="modal-title text-center">How to use the map</h3>
+        			</div>
+        			<div class="modal-body">
+        				    <!--img src="../img/guide.png" class="img-responsive"-->
+                    <video width="100%" controls autoplay>
+							              <source src="../img/guide.mov"></source>
+							              <p>動画を再生するには、videoタグをサポートしたブラウザが必要です。</p>
+						        </video>
+        			</div>
+        			<!--div class="modal-footer">
+        				<button type="button" class="btn btn-default" data-dismiss="modal">閉じる</button>
+        				<button type="button" class="btn btn-primary">ボタン</button>
+        			</div-->
+        		</div>
+        	</div>
+        </div>
+
       </div>
+
+
 
       <center>
 

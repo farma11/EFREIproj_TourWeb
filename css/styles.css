@@ -157,6 +157,10 @@ header.jumbotron {
 .btn-light_red {
 	color: #000;
 	background: #ffc1c1;
+	border: 1px solid #ffc1c1;
+}
+.btn-light_red:hover {
+	opacity: 0.8;
 }
 /*
 .btn-light_red:hover {
@@ -164,6 +168,29 @@ header.jumbotron {
 	background: #ffefef;
 }
 */
+.btn-light_green {
+	color: #000;
+	background: #89ffc4;
+	border: 1px solid #89ffc4;
+}
+.btn-light_green:hover {
+	opacity: 0.8;
+}
+
+
+.btn_rounded {
+	border-radius: 100px;
+	-moz-border-radius: 100px;
+	-webkit-border-radius: 100px;
+	padding: 10px 1px;
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	font-size: 120%;
+	transition: background-color 0.1s ease-in;
+	-webkit-transition: background-color 0.1s ease-in;
+}
+
 
 /***** cardについて *****/
 .card {
